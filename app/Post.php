@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class Post extends Model
 {
-   protected $guarded=[];
-
+   protected $fillable=['email'];
+   
+    protected $guarded=[];
 }
